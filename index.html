@@ -5,6 +5,24 @@
     <title>H&M At It Again</title>
   </head>
   <body>
-    <p>yo hier sind wir um machen!!!
+    <input type="text" id="b" placeholder="gebe 1 zahl ein"/>
+    <p>yo hier sind wir um machen!!!</p>
+    <script>
+    function ersteFunk(a,b=5){
+      console.log(a+b)
+    }
+    ersteFunk(3,5)
+    ersteFunk(5,7)
+    ersteFunk(8)
+    </script>
+    <button onclick="multiplyWith(5)">5</button>
+    <button onclick="multiplyWith(2)">2</button>
+    <script>
+    function multiplyWith(a){
+      var b=document.getElementById('b').value
+      console.log(a*b)
+          }
+
+    </script>
   </body>
 </html>
